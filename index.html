@@ -139,12 +139,10 @@
       align-items: center;
       justify-content: space-between;
     }
-    .nav-brand {
-      font-family: var(--font-mono);
-      font-weight: 500;
-      font-size: 13px;
-      letter-spacing: 0.15em;
-      text-transform: uppercase;
+    .nav-brand img {
+      height: 32px;
+      width: auto;
+      display: block;
     }
     .nav-links {
       display: flex;
@@ -576,11 +574,10 @@
       justify-content: space-between;
       align-items: center;
     }
-    .footer-brand {
-      font-family: var(--font-mono);
-      font-size: 12px;
-      letter-spacing: 0.15em;
-      text-transform: uppercase;
+    .footer-brand img {
+      height: 28px;
+      width: auto;
+      display: block;
     }
     .footer-links {
       display: flex;
@@ -620,7 +617,9 @@
   <!-- NAV -->
   <nav>
     <div class="container">
-      <span class="nav-brand">HYBRIDMARKETER.CO</span>
+      <a href="#hero" class="nav-brand">
+        <img src="src/logo-dark-bg-solid.png" alt="Hybrid Marketer" />
+      </a>
       <ul class="nav-links">
         <li><a href="#pain">The Problem</a></li>
         <li><a href="#solution">How It Works</a></li>
@@ -866,7 +865,9 @@
   <!-- FOOTER -->
   <footer>
     <div class="container">
-      <span class="footer-brand">HYBRIDMARKETER.CO</span>
+      <a href="#hero" class="footer-brand">
+        <img src="src/logo-dark-bg-solid.png" alt="Hybrid Marketer" />
+      </a>
       <ul class="footer-links">
         <li><a href="#pain">Problem</a></li>
         <li><a href="#solution">Method</a></li>
